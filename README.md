@@ -1,10 +1,20 @@
 # Mansão Maromba Distribution Radar
 
-**Live Notion Dashboard:** [Mansão Maromba Distribution Radar](https://hackatoon.notion.site/?v=31c0ecb3df6180bd981b000c6ae8c235)
+**Live Notion Dashboard:** [Radar de Distribuição Mansão Maromba](https://deeply-nutria-27e.notion.site/Radar-de-Distribui-o-Mans-o-Maromba-a7db58ed8f3b4e5db7d7c1c1f70bb2cf)
+**Alternate View:** [Distribution Radar Dashboard](https://hackatoon.notion.site/?v=31c0ecb3df6180bd981b000c6ae8c235)
 
 The Mansão Maromba Distribution Radar is an opinionated reference project that turns Notion into the **source of truth** for distribution mapping, prospecting, and messaging workflows, powered by Notion MCP, Visual Code, a mapping service, and WhatsApp bots. It is designed as a portfolio‑grade repo that you can fork, adapt to your own brand, or use as a template for agentic distribution operations.
 
 The core idea: model everything in Notion (`Mapa de Distribuição`, `Alvos de Prospecção`, `Backlog Radar Mansão Maromba`), expose it via the official Notion MCP server, and orchestrate agents (schema/backlog, maps prospector, messaging assistant) from an MCP client
+
+## Notion AI Agents
+
+To automate and enhance the distribution operations, we utilize specialized agents designed to interact with the Notion ecosystem:
+
+1.  **Mansão Maromba — Navigator:** The lead agent responsible for operating the Distribution Map as a complete prospecting and CRM system. It discovers new points of sale (PDVs) via Google Maps API/MCP, automatically enriches records, maintains the sales funnel, and generates weekly executive summaries with key KPIs.
+2.  **Master UI Agent:** Focuses on user experience and data visualization. It transforms complex, data-heavy pages into minimalist, highly functional dashboards using custom Notion layouts, callouts, synced navigation, and curated database views.
+3.  **Amplitude Data Analyst:** Bridges the gap between product usage and CRM. It analyzes Amplitude data and creates visual product usage reports directly within Notion to help prioritize high-potential leads.
+4.  **Email Assistant:** Streamlines daily communication. During daily workflows, it integrates with all connected inboxes to ensure all incoming leads and responses are loaded, tracked, and ready for the next action.
 
 ## High‑level flows
 

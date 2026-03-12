@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "notion": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@notionhq/notion-mcp"
+            ],
+            "env": {
+                // use your internal integration token here
+                "NOTION_TOKEN": "ntn_G3971211105quiiqe2T8picdDEBOsTb06Pr2TbdbED57Af"
+            }
+        },
+        "google-maps": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-google-maps"
+            ],
+            "env": {
+                "GOOGLE_MAPS_API_KEY": "AIzaSyAh6DPZM1PmM0w2R0Ys94ionV89VuBD160"
+            }
+        }
+    }
+}

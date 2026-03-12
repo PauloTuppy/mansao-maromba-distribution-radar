@@ -1,0 +1,35 @@
+{
+    "name": "mansao-maromba-distribution-radar",
+    "version": "1.0.0",
+    "description": "Internal system to map and prospect distribution expansion for Mansão Maromba.",
+    "main": "index.js",
+    "scripts": {
+        "test-mcp": "node scripts/test-mcp.js",
+        "mcp-capabilities": "node scripts/show-mcp-capabilities.js",
+        "setup-notion-token": "node scripts/setup-notion-token.js",
+        "demo": "node scripts/demo-integration.js",
+        "prospect-bars": "ts-node services/maps-prospector/bar-prospector.ts",
+        "create-databases": "ts-node services/notion-setup/database-creator.ts",
+        "oauth-callback": "node scripts/oauth-callback-server.js",
+        "oauth-authorize": "ts-node scripts/oauth-flow.ts authorize",
+        "oauth-exchange": "ts-node scripts/oauth-flow.ts exchange",
+        "oauth-refresh": "ts-node scripts/oauth-flow.ts refresh",
+        "oauth-list": "ts-node scripts/oauth-flow.ts list",
+        "oauth-remove": "ts-node scripts/oauth-flow.ts remove",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@google/genai": "^1.44.0",
+        "@notionhq/client": "^2.2.14",
+        "axios": "^1.6.0",
+        "dotenv": "^16.3.1",
+        "google-auth-library": "^10.6.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.0"
+    },
+    "author": "Paulo Tuppy",
+    "license": "MIT"
+}
